@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mission Control</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="header">MISSION CONTROL</div>
+
+<div class="container">
+
+  
+  <div class="dashboard">
+    <h2>DASHBOARD</h2>
+    
+    <div class="panel">
+      <div class="grid">
+        <p>PACKET COUNT: <span id="packet">0000</span></p>
+        <p>FS STATE: <span id="fs">0000</span></p>
+        <p>VERTICAL VEL: <span id="vel">0000</span> m/s</p>
+
+        <p>ALTITUDE: <span id="alt">0000</span> m</p>
+        <p>VOLTAGE: <span id="volt">0000</span> V</p>
+        <p>PITCH: <span id="pitch">0000</span></p>
+
+        <p>TEMPERATURE: <span id="temp">0000</span> °C</p>
+        <p>CURRENT: <span id="curr">0000</span> A</p>
+        <p>ROLL: <span id="roll">0000</span></p>
+
+        <p>PRESSURE: <span id="pres">0000</span> Pa</p>
+        <p>TIMESTAMP: <span id="time">0000</span> ms</p>
+        <p>YAW: <span id="yaw">0000</span></p>
+      </div>
+    </div>
+
+    
+    <div class="input-box">
+      <input type="text" placeholder="Enter command...">
+      <button>SEND</button>
+    </div>
+
+  </div>
+
+  
+  <div class="right-panel">
+    <label>BAUD :</label>
+    <input type="text">
+    <button class="connect-btn">CONNECT</button>
+  </div>
+
+</div>
+
+
+<div class="console">
+  <h2>CONSOLE</h2>
+  <div class="console-box" id="console"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

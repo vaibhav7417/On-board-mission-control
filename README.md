@@ -44,7 +44,7 @@ Onboard Mission Control enables real-time tracking of critical flight parameters
 
 ---
 
-##Project Structure
+## Project Structure
 
 onboard-mission-control/
 │
